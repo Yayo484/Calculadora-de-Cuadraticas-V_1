@@ -1,6 +1,6 @@
 import math 
 
-print ("\t\t\t\t\t\t\tRecordemos que las ecuaci髇es cuadraticas son de la forma ax^2+bx+c".upper())
+print ("\t\t\t\t\t\t\tRecordemos que las ecuaci贸nes cuadraticas son de la forma ax^2+bx+c".upper())
 print("\n")
 a = float(input("escriba el valor de la variable a: "))
 b = float(input("escriba el valor de la variable b: "))
@@ -12,14 +12,14 @@ verty = 4*a*c-b**2
 v_y = verty/4*a
 
 if d<0:
-  print("la ecuaci髇 tiene raices complejas")
+  print("la ecuaci贸n tiene raices complejas")
 else:
   x1 = (-b+math.sqrt(d))/(2*a) 
   x2 = (-b-math.sqrt(d))/(2*a) 
 
-  print("las raiz de la ecuaci髇 x_1 es:\n ", x1)
+  print("la raiz de la ecuaci贸n x_1 es:\n ", x1)
   
-  print("las raiz de la ecuaci髇 x_2 es:\n ", x2)
+  print("la raiz de la ecuaci贸n x_2 es:\n ", x2)
   print("el vertice del eje x es:\n ", v_x)
   print("el vertice del eje y es:\n ", v_y)
   
